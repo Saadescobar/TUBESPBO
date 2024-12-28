@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592.0" prefWidth="378.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="history">
+   <children>
+      <Label layoutX="24.0" layoutY="40.0" text="SELAMAT DATANG DI SERVICE BERKELAS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="113.0" text="Masukan Nama">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfName" layoutX="46.0" layoutY="131.0" />
+      <Label layoutX="47.0" layoutY="183.0" text="Masukan Nomor Seri">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_lanjut" layoutX="47.0" layoutY="283.0" mnemonicParsing="false" onAction="#onBTNlnjtclick" text="Lanjut" />
+      <Button fx:id="btn_back" layoutX="136.0" layoutY="283.0" mnemonicParsing="false" onAction="#onBTNbackclick" text="Kembali" />
+      <TextField fx:id="tfnmrseri" layoutX="47.0" layoutY="219.0" />
+   </children>
+</AnchorPane>
